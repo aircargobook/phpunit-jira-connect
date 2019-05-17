@@ -1,8 +1,8 @@
 {
     "name": "aircargobook/phpunit-jira-connect",
-    "description": "CakePHP3 plugin",
+    "description": "a simple php trait to push test results (per issue) to JRIA.",
     "homepage": "https://www.aircargobook.com",
-    "type": "cakephp-plugin",
+    "type": "library",
     "require": {
         "chobie/jira-api-restclient": "^2.0@dev"
     },
