@@ -1,0 +1,27 @@
+{
+    "name": "aircargobook/phpunit-jira-connect",
+    "description": "CakePHP3 plugin",
+    "homepage": "https://www.aircargobook.com",
+    "type": "cakephp-plugin",
+    "require": {
+        "chobie/jira-api-restclient": "^2.0@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JM",
+            "email": "open-source@aircargobook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "psr-4": {
+        "Aircargobook\\PhpunitJiraConnect\\": "src"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "Aircargobook\\PhpunitJiraConnect\\Test\\": "tests"
+      }
+    }
+}
