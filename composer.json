@@ -18,10 +18,5 @@
       "psr-4": {
         "Aircargobook\\PhpunitJiraConnect\\": "src"
       }
-    },
-    "autoload-dev": {
-      "psr-4": {
-        "Aircargobook\\PhpunitJiraConnect\\Test\\": "tests"
-      }
     }
 }

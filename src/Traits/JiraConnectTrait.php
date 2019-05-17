@@ -1,5 +1,5 @@
 <?php
-namespace Aircargobook\PhpunitJiraConnect\Test\Traits;
+namespace Aircargobook\PhpunitJiraConnect\Traits;
 
 use chobie\Jira\Api;
 use chobie\Jira\Api\Authentication\Basic;
