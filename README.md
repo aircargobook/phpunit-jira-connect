@@ -21,7 +21,7 @@ Add this to your tests/bootstrap.php
     define('JIRA_URL', 'https://YOUR_JIRA_URL.atlassian.net');
     define('JIRA_LOGIN', 'YOUR_EMAIL');
     define('JIRA_PASS', 'YOUR_PASSWORD');
-    define('UPDATE_JIRA_TEST_STATUS', false);
+    define('UPDATE_JIRA_TEST_STATUS', true);
 
     /* end of loading custom jira trait */
 
