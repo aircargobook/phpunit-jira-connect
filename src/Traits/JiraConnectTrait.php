@@ -63,9 +63,9 @@ trait JiraConnectTrait
     public static function updateJiraTestStatus($filePath = 'ticket_status.json', $unlinkFile = true, $force = false)
     {
         //check if environment is staging
-        // if ((!defined('UPDATE_JIRA_TEST_STATUS') || empty(UPDATE_JIRA_TEST_STATUS)) && !$force) {
-        //  return;
-        // }
+        if ((!defined('UPDATE_JIRA_TEST_STATUS') || empty(UPDATE_JIRA_TEST_STATUS)) && !$force) {
+         return;
+        }
 
 
         $api = new Api(

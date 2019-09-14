@@ -21,7 +21,8 @@ Add this to your tests/bootstrap.php
     define('JIRA_URL', 'https://YOUR_JIRA_URL.atlassian.net');
     define('JIRA_LOGIN', 'YOUR_EMAIL');
     define('JIRA_PASS', 'YOUR_PASSWORD');
-    require dirname(__DIR__) . '/vendor/chobie/jira-api-restclient/src/Jira/Api.php';
+    define('UPDATE_JIRA_TEST_STATUS', false);
+
     /* end of loading custom jira trait */
 
 Then link any testcase you where you want to use the trait
