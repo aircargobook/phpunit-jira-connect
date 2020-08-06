@@ -1,6 +1,7 @@
 {
     "name": "aircargobook/phpunit-jira-connect",
     "description": "a simple php trait to push test results (per issue) to JRIA.",
+    "version": "1.0.1",
     "homepage": "https://www.aircargobook.com",
     "type": "library",
     "require": {

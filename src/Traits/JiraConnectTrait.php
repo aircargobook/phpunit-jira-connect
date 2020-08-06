@@ -160,7 +160,7 @@ trait JiraConnectTrait
      *
      * @return array
      */
-    public function onNotSuccessfulTest(Throwable $e)
+    public function onNotSuccessfulTest(Throwable $e): void
     {
         if (method_exists($e, 'getComparisonFailure') && $e->getComparisonFailure()) {
             $trace = $e->getComparisonFailure()->getTrace();
