@@ -148,7 +148,7 @@ trait JiraConnectTrait
      *
      * @return array
      */
-    public static function tearDownAfterClass()
+    public static function tearDownAfterClass(): void
     {
         self::updateJiraTestStatus();
     }
