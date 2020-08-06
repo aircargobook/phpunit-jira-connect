@@ -134,9 +134,9 @@ trait JiraConnectTrait
     /**
      * Overwrites standard tearDown
      *
-     * @return array
+     * @return void
      */
-    public function tearDown()
+    public function tearDown(): void
     {
         $className = explode('::', $this->toString())[0];
         $this->usingMethod($className, $this->getName());
